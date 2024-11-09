@@ -1,10 +1,6 @@
 <h1 align="center">Hi , I'm Diego <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
-I am passionate developer with tons of experience with different stack.
- - 🌱 I’m currently learning Angular.
- - 👯 I am available for any help related to these stacks.
- - 💬 Ask me about anything related to these stacks.
-- 📫 How to reach me:
+I'm a front-end developer passionate about technology and the art of creating digital experiences. With a strong command of Angular and React, I enjoy building intuitive and visually appealing interfaces. Currently, I'm expanding my skills on the backend side, learning FastAPI to develop full-stack, optimized applications. I'm driven by the opportunity to blend creativity and technical expertise to transform ideas into innovative, functional solutions.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diego-polanco-jaramillo-34aa65281)
 
