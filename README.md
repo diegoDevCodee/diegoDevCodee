@@ -20,7 +20,7 @@
 
 ## About
 
-Software developer with 4 years of experience building web applications in production. I work as a senior Angular developer at Makers Club, building product front-ends on top of an in-house design system, and I work full-stack with NestJS and Next.js on the API and data side.
+Software developer with 4 years of experience building web applications in production. I work as a senior Angular developer at Makers Club, building product front-ends on top of an in-house design system, and I am a cofounder of Highstack, where I take a scheduling product end to end across Angular and NestJS.
 
 Most of my work lives in admin panels, booking flows, and dashboards — interfaces with real business rules behind them, where correctness matters as much as the visual result. I care about component boundaries that hold up as a product grows, and about tests that pin down the behaviour that actually matters.
 
@@ -51,29 +51,31 @@ Most of my work lives in admin panels, booking flows, and dashboards — interfa
 
 ## Selected Work
 
-### Scheduling Platform — Makers Club
+### Highstack Scheduling — Highstack *(cofounder)*
 
 Booking product for service businesses. Public booking flow, administrative agenda with day, week, and list views, cancellation, rescheduling, completion and no-show handling, plus configuration of services, resources, compatibilities, working hours, and calendar exceptions. Built as an Angular SPA against a NestJS/PostgreSQL backend, on an in-house design system, with accessibility checks running against every screen.
 
-`Angular` `TypeScript` `Tailwind CSS` `Design System` `Vitest` `Playwright` `axe`
+`Angular` `TypeScript` `Tailwind CSS` `NestJS` `PostgreSQL` `Design System` `Vitest` `Playwright` `axe` · *private repository*
+
+### OKF Studio — Makers Club
+
+Local-first knowledge CMS that turns a pile of Markdown files into a validated, navigable documentation bundle without anyone hand-editing YAML or touching a Git repository. Runs entirely in the browser — no backend, no account, no network call: projects live in IndexedDB and leave the machine only as an exported ZIP. Includes a CodeMirror Markdown editor, a drag-and-drop content tree, a relationship graph, and frontmatter validation.
+
+`React` `Vite` `TypeScript` `IndexedDB (Dexie)` `CodeMirror` `Cytoscape` `Zod` `Tailwind CSS` `Playwright` · *private repository*
 
 ### Agent Orchestrator
 
 Local dashboard to monitor and launch Claude Code agent sessions across projects. Streams live session state over Server-Sent Events, with nested subagent trees, task progress, and conversation history read straight from disk. Deletions move items to the system trash instead of removing bytes — a guarantee enforced by a test, so no future change can quietly turn it into a real delete.
 
-`React` `Vite` `TypeScript` `Tailwind CSS` `NestJS` `Server-Sent Events` · *private repository*
+`React` `Vite` `TypeScript` `Tailwind CSS` `NestJS` `Server-Sent Events`
+
+[Dashboard](https://github.com/diegoDevCodee/agent_orchestrator) · [API](https://github.com/diegoDevCodee/agent-orchestrator-api)
 
 ### Mensualito
 
 Personal finance application: accounts, transactions, debt and installment tracking, savings goals, budget planning, and reports. Auth and persistence on Supabase, schema validation with Zod, charts with Recharts.
 
 `Next.js (App Router)` `TypeScript` `Supabase` `Tailwind CSS` `shadcn/ui` `Recharts` `Zod` · *private repository*
-
-### Dental Admin
-
-Admin panel for a dental clinic, built on Angular with an atomic-design component structure — molecules, organisms, templates, pages — over a shared design system package. Unit tests with Vitest. *Work in progress.*
-
-`Angular` `TypeScript` `Design System` `Vitest` · *private repository*
 
 ## Contact
 
